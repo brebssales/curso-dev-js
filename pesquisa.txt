@@ -1,1 +1,14 @@
 JavaScript? – É uma linguagem de programação de comportamento que permite a criação de conteúdos dinâmicos, controle de mídias e animações para deixar seu site mais interativo e interessante.
+
+Para que serve o JavaScript
+Manipular elementos HTML e CSS dinamicamente (DOM).
+
+Criar animações e interações com o usuário.
+
+Validar formulários diretamente no navegador.
+
+Fazer requisições para APIs (com fetch ou XMLHttpRequest).
+
+Criar aplicações completas (full stack) com frameworks como React, Vue, Angular no front-end e Node.js no back-end.
+
+Desenvolver aplicativos mobile com tecnologias como React Native.
