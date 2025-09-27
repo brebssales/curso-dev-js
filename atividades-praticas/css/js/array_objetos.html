@@ -1,0 +1,115 @@
+<!-- ARRAYS E OBJETOS -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEMPLOS DE ARRAYS E OBJ</title>
+ </head>
+ <body>
+    
+        <p>F12 para exibir</p>
+                                        <!-- ARRAY [] E OBJ {} -->
+
+                                                <!-- 1. array -->
+
+<script>
+
+
+    const frutas = ["melancia", "banana", "uva", "pera"];
+
+    console.log(frutas); 
+
+                                                // VERIFICAR QNT DE ITENS 
+    
+     console.log(frutas.length);
+     
+                                                // VERIFICAR 1 E ULTIMO ITEM 
+
+     console.log(frutas[0]);
+     console.log(frutas[4]);
+     console.log(frutas[frutas.length - 1]);
+
+
+                                                    // INSERIIR ITENS 
+    //  PUSH INSERE NA ULTIMA POSIÇÃO                                                
+
+     frutas.push("jaca");
+     console.log(frutas);
+
+    // UNSHIFIT INSERE NA PRIMEIRA POSIÇÃO 
+     frutas.unshift("abacaxi");
+     console.log(frutas);
+                                                    // ALTERAR ITENS 
+
+     frutas[0] = "morango";
+     console.log(frutas);
+     
+                                                    //  EXCLUIR ITENS 
+    //  EXCLUI O ULTIMO ITEM                                                
+     frutas.pop()
+     console.log(frutas);  
+     
+    //  EXCLUE O 1 ITEM 
+
+    frutas.shift
+        console.log(frutas);
+
+    // O DELETE DEIXA O POSICIONAMENTO VAZIO, EXCLUINDO APENAS O VALOR 
+        delete frutas[1];
+        console.log(frutas);
+
+                                                    // INSERIR OU EXCLUIR 
+    //  frutas.splice(comecar a trabalhar apartir de, qnt de itens para remover, fruta para inserir)
+    
+    frutas.splice(1,2,"limão")
+
+                                                      // OBJETOS 
+        const pessoa = {
+            nome : "Brenda", 
+            idade : 17,
+            altura : 1.53,
+            amigos : ["Victor","Isadora","Marlon", "Bia", "Jms"]
+        
+        }                                                  
+         console.log(pessoa);
+         console.log(pessoa.nome);
+
+
+                                                        // INSERIR VALORES 
+            pessoa.cidade = "Santo Anastacio";
+            console.log(pessoa);
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+ </body>
+ </html>
