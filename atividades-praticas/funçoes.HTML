@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="FUNÇOES" content="width= , initial-scale=1.0">
+    <title>FUNÇOES</title>
+</head>
+<body>
+    
+<script>
+
+// função nomeada sem parametros
+
+function exercicio1(){
+    //codigo
+}
+
+
+function saudacao(){
+    console.log ("ola mundo");
+}
+
+saudacao();
+
+
+
+// função com parametro
+
+function soma(n1,n2){
+    console.log (n1+n2);
+}
+
+soma(5,2);
+
+function somaretorno(n1,n2){
+    return n1+n2
+}
+
+const resultado = somaretorno(2,3);
+console.log(resultado);
+
+
+// função anonima
+
+const subtrair = function(n1,n2){
+    return n1-n2; 
+}
+
+console.log (subtrair(4,7))
+
+
+// funcao anonima com arrow function
+
+const multiplicar = (n1,n2) => {
+    return n1*n2
+}
+console.log(multiplicar(9,6))
+
+
+//FUNCAO COM PARAMETRO PADRAO
+
+function cumprimentar(nome="visitante"){
+    console.log("ola, ${nome}");
+    
+}
+
+cumprimentar()
+cumprimentar("brenda")
+
+
+
+
+// EXERCICIO 1
+
+// funcao anonima com arrow function
+
+const caucularArea = (n1,n2) => {
+    return n1*n2
+}
+console.log(multiplicar(10,5))
+
+
+
+//EXERCICIO 2
+
+function ehPar(numero) {
+    return numero % 2 === 0;
+}
+
+console.log(ehPar(4));  // Saída: true
+console.log(ehPar(7));  // Saída: false
+
+
+
+//EXERCICIO 3
+
+function celsiusParaFahrenheit(temperaturaCelsius) {
+    const fahrenheit = (temperaturaCelsius * 9/5) + 32;
+    return fahrenheit.toFixed(1);  // Formata para uma casa decimal
+}
+console.log(celsiusParaFahrenheit(0));    // Saída: 32.0
+console.log(celsiusParaFahrenheit(25));   // Saída: 77.0
+console.log(celsiusParaFahrenheit(100));  // Saída: 212.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
